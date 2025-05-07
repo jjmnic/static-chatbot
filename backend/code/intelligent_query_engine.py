@@ -41,10 +41,10 @@ class IntelligentQueryEngine:
         intents = {
             "count_schemes": ["How many schemes are there?", "Tell me the total schemes", "What's the scheme count?"],
             "group_by_category": ["What are the scheme types?", "Categorize the schemes", "Show me scheme categories"],
-            "groupby_by_village_scheme_category": ["Tell me about SVS or MVS schemes", "Details about BVS schemes"],
+            "groupby_by_village_scheme_category": ["Tell me about SVS or MVS schemes", "Details about BVS schemes","How many svs schemes are there",'how many mvs schemes are there'],
             "group_by_status": ["What is the completion status?", "How many completed?", "Status of the schemes"],
             "group_by_sanction_year": ["How many schemes were sanctioned per year?", "Sanctioned year-wise info"],
-            "sum_expenditure": ["Total money spent?", "What’s the overall expenditure?", "How much cost after 2019"],
+            "sum_expenditure": ["Total money spent?", "What is the overall expenditure?", "How much cost after 2019"],
             "summarize_by_water_scheme_type": ["Summarize schemes by type", "Types of schemes summary"],
             "summarize_by_water_scheme_source": ["Summarize based on water source", "Scheme by source"],
             "summarize_by_water_scheme_funded": ["Who funds the schemes?", "Funding-based scheme summary",'funding'],
