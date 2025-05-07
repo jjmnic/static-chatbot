@@ -14,11 +14,13 @@ import {
   Select,
   Alert,
   CircularProgress,
+  Box
 } from "@mui/material";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import TopHeader from "./components/ui/TopHeader";
 import Header from "./components/ui/Header";
+import Footer from "./components/ui/Footer";
 
 // Validation schema
 const schema = yup.object().shape({
@@ -90,11 +92,13 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <Box sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+      {/* Header */}
       <TopHeader />
       <Header />
 
-      <Container sx={{ marginTop: "40px" }}>
+      {/* Main Content */}
+      <Container sx={{ marginTop: "40px", flexGrow: 1 }}>
         <Grid container justifyContent="center">
           <Grid item xs={12} sm={8} md={6}>
             <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
@@ -162,34 +166,33 @@ function App() {
       </Container>
 
       {/* Response Display */}
-      {aiResponse && (
+      {response && (
         <Container sx={{ marginTop: "40px" }}>
           <Grid container justifyContent="center">
             <Grid item xs={12} sm={8} md={6}>
               <Alert severity="success" sx={{ boxShadow: 3 }}>
-                {response && (
-                  <>
-                    <Typography variant="h6">
-                      Query Submitted Successfully!
-                    </Typography>
-                    <Typography>
-                      <strong>State:</strong> {response.state}
-                    </Typography>
-                    <Typography>
-                      <strong>Your Query:</strong> {response.query}
-                    </Typography>
-                    <Typography variant="h6" mt={2}>
-                      <strong>AI Response:</strong>
-                    </Typography>
-                  </>
-                )}
+                <Typography variant="h6">
+                  Query Submitted Successfully!
+                </Typography>
+                <Typography>
+                  <strong>State:</strong> {response.state}
+                </Typography>
+                <Typography>
+                  <strong>Your Query:</strong> {response.query}
+                </Typography>
+                <Typography variant="h6" mt={2}>
+                  <strong>AI Response:</strong>
+                </Typography>
                 <Typography>{aiResponse}</Typography>
               </Alert>
             </Grid>
           </Grid>
         </Container>
       )}
-    </div>
+
+      {/* Footer */}
+      <Footer />
+    </Box>
   );
 }
 
