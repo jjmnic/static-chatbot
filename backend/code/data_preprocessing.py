@@ -80,8 +80,8 @@ def preprocess_data(df):
     # Rename specific columns
     rename_dict = {
         "Work not awarded/ Ongoing/ Financially completed": "Status Of Completion",
-        "New scheme/ Retrofit/ Augmentation": "Type of Scheme",
-        "SVS/ MVS/ Bulk Water Schemes": "Category",
+        "New scheme/ Retrofit/ Augmentation": "Category",
+        "SVS/ MVS/ Bulk Water Schemes": "Village Scheme Type",
         "Ground/ Surface water/ Bulk Water Based/ Other": "Source of Scheme",
         "NRDWP/ State and Others/ JJM-PWS/ JJM-Non-PWS": "Main Schemes Funded From",
         "Physically completed/ Ongoing but physically not completed/ Work order not issued": "Physical Work Status"
@@ -165,7 +165,7 @@ def preprocess_data(df):
     # Check and add columns to fillna_dict only if they exist and still have NAs
     # For text columns
     text_fill_values = {
-        'Type of Scheme': 'Not Specified',       # Corrected capitalization
+        'Village Scheme Type': 'Not Specified',       # Corrected capitalization
         'Source of Scheme': 'Not Specified',
         'Category': 'Not Specified',
         'Main Schemes Funded From': 'Not Specified',
