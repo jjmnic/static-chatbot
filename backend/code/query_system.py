@@ -45,6 +45,13 @@ class QuerySystem:
         faiss_index_path = os.path.join(self.output_dir, 'faiss_index.index')
         faiss.write_index(self.vector_store.index, faiss_index_path)
         print(f"Saved FAISS index at {faiss_index_path}")
+        
+#         self.query_engine = IntelligentQueryEngine(
+#         llama_api_url="http://10.197.112.27:10022/docs#/default/rag_inference_rag_inference_post",  # ← replace with real URL
+#         df=self.df_preprocess,
+#         text_columns=self.text_columns,
+#         state_column_name='state name'
+# )
 
         # Intelligent Query Engine
         self.query_engine = IntelligentQueryEngine(
