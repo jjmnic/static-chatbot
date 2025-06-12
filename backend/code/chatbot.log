@@ -1,0 +1,251 @@
+2025-06-11 09:53:46,909 - INFO - Processing question: what is the number of schemes
+2025-06-11 09:53:46,956 - ERROR - Error processing question: unbalanced parenthesis at position 55
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 139, in ask
+    if re.search(pattern, corrected_question.lower()):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_compiler.py", line 745, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_parser.py", line 984, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 55
+2025-06-11 09:54:28,367 - INFO - Processing question: number of scheme
+2025-06-11 09:54:28,411 - ERROR - Error processing question: unbalanced parenthesis at position 55
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 139, in ask
+    if re.search(pattern, corrected_question.lower()):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_compiler.py", line 745, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_parser.py", line 984, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 55
+2025-06-11 10:07:38,047 - INFO - Processing question: how many schemes are there in madhya pradesh
+2025-06-11 10:07:38,136 - ERROR - Error processing question: unbalanced parenthesis at position 55
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 145, in ask
+    if re.search(pattern, corrected_question.lower()):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_compiler.py", line 745, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_parser.py", line 984, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 55
+2025-06-11 10:07:51,128 - INFO - Processing question: how many schemes are there in indore
+2025-06-11 10:07:51,197 - ERROR - Error processing question: unbalanced parenthesis at position 55
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 145, in ask
+    if re.search(pattern, corrected_question.lower()):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_compiler.py", line 745, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_parser.py", line 984, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 55
+2025-06-11 10:07:58,858 - INFO - Processing question: number of schemes are there in indore
+2025-06-11 10:07:58,925 - ERROR - Error processing question: unbalanced parenthesis at position 55
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 145, in ask
+    if re.search(pattern, corrected_question.lower()):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_compiler.py", line 745, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\re\_parser.py", line 984, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 55
+2025-06-11 10:14:07,278 - ERROR - Processing error: name 'best_intent' is not defined
+2025-06-11 10:14:14,156 - ERROR - Processing error: name 'best_intent' is not defined
+2025-06-11 10:14:15,051 - ERROR - Processing error: name 'best_intent' is not defined
+2025-06-11 10:14:15,115 - ERROR - Processing error: name 'best_intent' is not defined
+2025-06-11 10:28:03,955 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:28:17,501 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:28:18,454 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:28:18,735 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:28:19,591 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:28:20,486 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:28:22,190 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:45:34,255 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:45:48,603 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:45:49,819 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 10:45:49,964 - ERROR - Processing error: unbalanced parenthesis at position 55
+2025-06-11 11:05:47,207 - INFO - IntelligentQueryEngine initialized.
+2025-06-11 11:05:47,561 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:05:47,561 - INFO - Received question: 'Summarize schemes by type?'
+2025-06-11 11:05:47,569 - INFO - Original question: 'Summarize schemes by type?' -> Preprocessed question: 'summarize schemes by type'
+2025-06-11 11:05:47,576 - ERROR - An unexpected error occurred in ask('Summarize schemes by type?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:05:52,626 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:05:52,626 - INFO - Received question: 'Summarize schemes by type?'
+2025-06-11 11:05:52,643 - INFO - Original question: 'Summarize schemes by type?' -> Preprocessed question: 'summarize schemes by type'
+2025-06-11 11:05:52,652 - ERROR - An unexpected error occurred in ask('Summarize schemes by type?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:05:52,688 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:05:52,688 - INFO - Received question: 'Summarize schemes by type?'
+2025-06-11 11:05:52,708 - INFO - Original question: 'Summarize schemes by type?' -> Preprocessed question: 'summarize schemes by type'
+2025-06-11 11:05:52,717 - ERROR - An unexpected error occurred in ask('Summarize schemes by type?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:05:53,456 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:05:53,456 - INFO - Received question: 'Summarize schemes by type?'
+2025-06-11 11:05:53,478 - INFO - Original question: 'Summarize schemes by type?' -> Preprocessed question: 'summarize schemes by type'
+2025-06-11 11:05:53,487 - ERROR - An unexpected error occurred in ask('Summarize schemes by type?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:05:53,800 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:05:53,800 - INFO - Received question: 'Summarize schemes by type?'
+2025-06-11 11:05:53,820 - INFO - Original question: 'Summarize schemes by type?' -> Preprocessed question: 'summarize schemes by type'
+2025-06-11 11:05:53,828 - ERROR - An unexpected error occurred in ask('Summarize schemes by type?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:05:53,976 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:05:53,976 - INFO - Received question: 'Summarize schemes by type?'
+2025-06-11 11:05:53,993 - INFO - Original question: 'Summarize schemes by type?' -> Preprocessed question: 'summarize schemes by type'
+2025-06-11 11:05:54,002 - ERROR - An unexpected error occurred in ask('Summarize schemes by type?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:05:54,191 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:05:54,191 - INFO - Received question: 'Summarize schemes by type?'
+2025-06-11 11:05:54,209 - INFO - Original question: 'Summarize schemes by type?' -> Preprocessed question: 'summarize schemes by type'
+2025-06-11 11:05:54,218 - ERROR - An unexpected error occurred in ask('Summarize schemes by type?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:05:54,504 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:05:54,504 - INFO - Received question: 'Summarize schemes by type?'
+2025-06-11 11:05:54,520 - INFO - Original question: 'Summarize schemes by type?' -> Preprocessed question: 'summarize schemes by type'
+2025-06-11 11:05:54,528 - ERROR - An unexpected error occurred in ask('Summarize schemes by type?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:06:08,499 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:06:08,499 - INFO - Received question: 'number of schemes in madhya pradesh?'
+2025-06-11 11:06:08,520 - INFO - Original question: 'number of schemes in madhya pradesh?' -> Preprocessed question: 'number of schemes funding madhya pradesh?'
+2025-06-11 11:06:08,527 - ERROR - An unexpected error occurred in ask('number of schemes in madhya pradesh?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:06:09,897 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:06:09,897 - INFO - Received question: 'number of schemes in madhya pradesh?'
+2025-06-11 11:06:09,933 - INFO - Original question: 'number of schemes in madhya pradesh?' -> Preprocessed question: 'number of schemes funding madhya pradesh?'
+2025-06-11 11:06:09,940 - ERROR - An unexpected error occurred in ask('number of schemes in madhya pradesh?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:06:10,048 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:06:10,048 - INFO - Received question: 'number of schemes in madhya pradesh?'
+2025-06-11 11:06:10,070 - INFO - Original question: 'number of schemes in madhya pradesh?' -> Preprocessed question: 'number of schemes funding madhya pradesh?'
+2025-06-11 11:06:10,078 - ERROR - An unexpected error occurred in ask('number of schemes in madhya pradesh?'): 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\ruchika\LLM Schemes 7 may\backend\code\intelligent_query_engine.py", line 168, in ask
+    state_col = self.get_matching_column(current_df, [self.state_column_name])
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IntelligentQueryEngine' object has no attribute 'get_matching_column'
+2025-06-11 11:20:37,626 - INFO - IntelligentQueryEngine initialized.
+2025-06-11 11:20:53,498 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:20:53,499 - INFO - Received question: 'what is the number of scheme?'
+2025-06-11 11:20:53,522 - INFO - Original question: 'what is the number of scheme?' -> Preprocessed question: 'what district the number of scheme'
+2025-06-11 11:20:53,561 - INFO - Filtered by state 'Madhya Pradesh', reduced from 46424 to 46423 rows.
+2025-06-11 11:20:53,975 - INFO - Embedding intent matched: 'count_schemes' with score: 0.7515
+2025-06-11 11:20:53,975 - INFO - Executing intent handler: 'count_schemes' with 46423 rows.
+2025-06-11 11:20:53,976 - INFO - Formatting numerical data for intent 'count_schemes'
+2025-06-11 11:21:04,075 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:21:04,075 - INFO - Received question: 'what is the number of scheme in madhya pradesh'
+2025-06-11 11:21:04,110 - INFO - Original question: 'what is the number of scheme in madhya pradesh' -> Preprocessed question: 'what district the number of scheme funding madhya pradesh'
+2025-06-11 11:21:04,147 - INFO - Filtered by state 'Madhya Pradesh', reduced from 46424 to 46423 rows.
+2025-06-11 11:21:04,475 - INFO - Embedding intent matched: 'summarize_by_water_scheme_funded' with score: 0.5263
+2025-06-11 11:21:04,475 - INFO - Low confidence score (0.5262798070907593), falling back to LLM.
+2025-06-11 11:21:04,477 - INFO - Sending prompt to LLM. Context length: 7475. Question: 'what district the number of scheme funding madhya pradesh'
+2025-06-11 11:21:25,516 - ERROR - LLM API connection error: HTTPConnectionPool(host='10.197.112.27', port=10022): Max retries exceeded with url: /docs (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001D84AB30380>, 'Connection to 10.197.112.27 timed out. (connect timeout=None)'))
+2025-06-11 11:21:25,517 - INFO - Formatting string data for intent 'summarize_by_water_scheme_funded'
+2025-06-11 11:21:29,940 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:21:29,940 - INFO - Received question: 'what is the number of scheme in madhya pradesh'
+2025-06-11 11:21:29,970 - INFO - Original question: 'what is the number of scheme in madhya pradesh' -> Preprocessed question: 'what district the number of scheme funding madhya pradesh'
+2025-06-11 11:21:30,007 - INFO - Filtered by state 'Madhya Pradesh', reduced from 46424 to 46423 rows.
+2025-06-11 11:21:30,359 - INFO - Embedding intent matched: 'summarize_by_water_scheme_funded' with score: 0.5263
+2025-06-11 11:21:30,360 - INFO - Low confidence score (0.5262798070907593), falling back to LLM.
+2025-06-11 11:21:30,362 - INFO - Sending prompt to LLM. Context length: 7475. Question: 'what district the number of scheme funding madhya pradesh'
+2025-06-11 11:21:51,406 - ERROR - LLM API connection error: HTTPConnectionPool(host='10.197.112.27', port=10022): Max retries exceeded with url: /docs (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001D84A130B90>, 'Connection to 10.197.112.27 timed out. (connect timeout=None)'))
+2025-06-11 11:21:51,407 - INFO - Formatting string data for intent 'summarize_by_water_scheme_funded'
+2025-06-11 11:22:17,710 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:22:17,710 - INFO - Received question: 'how many schemes are there in madhya pradesh'
+2025-06-11 11:22:17,739 - INFO - Original question: 'how many schemes are there in madhya pradesh' -> Preprocessed question: 'how many how many schemes are there funding madhya pradesh'
+2025-06-11 11:22:17,800 - INFO - Filtered by state 'Madhya Pradesh', reduced from 46424 to 46423 rows.
+2025-06-11 11:22:18,347 - INFO - Embedding intent matched: 'summarize_by_water_scheme_funded' with score: 0.4758
+2025-06-11 11:22:18,347 - INFO - Low confidence score (0.47577565908432007), falling back to LLM.
+2025-06-11 11:22:18,350 - INFO - Sending prompt to LLM. Context length: 7475. Question: 'how many how many schemes are there funding madhya pradesh'
+2025-06-11 11:22:39,391 - ERROR - LLM API connection error: HTTPConnectionPool(host='10.197.112.27', port=10022): Max retries exceeded with url: /docs (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001D84A130680>, 'Connection to 10.197.112.27 timed out. (connect timeout=None)'))
+2025-06-11 11:22:39,392 - INFO - Formatting string data for intent 'summarize_by_water_scheme_funded'
+2025-06-11 11:34:48,715 - INFO - IntelligentQueryEngine initialized.
+2025-06-11 11:35:18,575 - INFO - State filter set to: Madhya Pradesh
+2025-06-11 11:35:18,575 - INFO - Received question: 'how many schemes are there in madhya pradesh'
+2025-06-11 11:35:18,590 - INFO - Original question: 'how many schemes are there in madhya pradesh' -> Preprocessed question: 'how many how many schemes are there funding madhya pradesh'
+2025-06-11 11:35:18,623 - INFO - Filtered by state 'Madhya Pradesh', reduced from 46424 to 46423 rows.
+2025-06-11 11:35:18,697 - INFO - Embedding intent matched: 'summarize_by_water_scheme_funded' with score: 0.4758
+2025-06-11 11:35:18,698 - INFO - Low confidence score (0.47577565908432007), falling back to LLM.
+2025-06-11 11:35:18,699 - INFO - Sending prompt to LLM. Context length: 7475. Question: 'how many how many schemes are there funding madhya pradesh'
+2025-06-11 11:35:39,751 - ERROR - LLM API connection error: HTTPConnectionPool(host='10.197.112.27', port=10022): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000214BC933740>, 'Connection to 10.197.112.27 timed out. (connect timeout=None)'))
+2025-06-11 11:35:39,751 - INFO - Formatting string data for intent 'summarize_by_water_scheme_funded'
+2025-06-11 11:42:03,264 - INFO - IntelligentQueryEngine initialized.
