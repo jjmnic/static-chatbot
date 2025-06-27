@@ -162,7 +162,7 @@ class IntelligentQueryEngine:
             ],
             "group_by_status": [
                 "What is the completion status?", "How many completed?",
-                "Completion status", "Scheme status", "Status of schemes", "show me the status of completion", "are schemes finished?" # Added more examples
+                "Completion status", "Scheme status", "Status of schemes", "show me the status of completion", "  " # Added more examples
             ],
             "group_by_sanction_year": [
                 "Sanctioned per year", "Sanctioned year-wise info",

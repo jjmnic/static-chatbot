@@ -51,7 +51,7 @@ class QuerySystem:
         self.query_engine = IntelligentQueryEngine(
             llama_api_url="http://10.197.112.27:10022/docs#/default/rag_inference_rag_inference_post",  # Replace with real URL
             df=self.df_preprocess,
-            text_columns=self.text_columns,
+            text_columns=self.text_columns, 
             state_column_name='state name', # Assuming 'state name' is the correct column
             district_column_name='district', # Add your district column name here if applicable
             vector_store=self.vector_store, # Pass the vector store
