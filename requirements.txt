@@ -1,0 +1,11 @@
+fastapi
+pydantic
+pandas
+numpy
+sentence-transformers
+fuzzywuzzy
+pyspellchecker
+torch
+requests
+gpt4all
+faiss-cpu
